@@ -40,3 +40,21 @@ To demonstrate practical mastery of field-trial biometrics, this repository incl
 * **Core Libraries Used:**
   * `ggplot2`: For multi-layered, publication-ready data visualizations mapping decadal shifts using continuous color scales and integrated linear trendlines (`geom_smooth`).
   * `stats`: Core R package utilized for fitting linear models (`lm`), Analysis of Variance (`aov`), t-tests (`t.test`), and correlation tests (`cor.test`).
+
+---
+
+## 🔬 Chapter 2: Localized Agronomic Field Trial Analysis (UNN Experimental Design)
+
+### 1. Treatment Background & Experimental Framework
+To evaluate micro-level agricultural variables, this secondary pipeline processes data from a controlled agronomic experiment evaluating plant height response ($cm$) across three distinct organic soil amendments: **Poultry Manure**, **Pig Manure**, and an unamended **Control**. This setup simulates localized field trials used to optimize nutrient supply for regional cropping systems.
+
+### 2. Mean Performance & Treatment Comparison
+* **Poultry Manure Mean Height:** 50.0 cm (`Group a`)
+* **Pig Manure Mean Height:** 48.0 cm (`Group a`)
+* **Control Mean Height:** 20.0 cm (`Group b`)
+
+### 3. Post-Hoc Mean Separation (Duncan's Multiple Range Test)
+An Analysis of Variance (ANOVA) paired with a **Duncan's Multiple Range Test (DMRT)** reveals highly critical biometrical separations:
+* **Statistical Grouping:** Poultry and Pig manures share the statistical letter assignment **`a`**, confirming that while Poultry yielded the highest numeric baseline, the difference between poultry and pig treatments is not statistically significant.
+* **Agronomic Thresholds:** The Control plot occupies an isolated grouping **`b`**. The dramatic gap (a 30cm drop from organic treatments) statistically validates that incorporating livestock waste variants yields non-trivial enhancements in vegetative cell elongation compared to unamended soil.
+* **Breeding & Extension Insight:** For smallholder management systems, this proves that Pig manure serves as an economically viable, statistically equivalent substitute to Poultry manure for promoting structural plant development.
